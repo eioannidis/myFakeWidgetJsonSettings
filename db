@@ -1,0 +1,172 @@
+[ {
+		"url": [
+			"https://www.madgik.di.uoa.gr/publications",
+			"file:///C:/Users/eioannidis/source/repos/Open%20Science%20Lens%20Testing%20Site/index.html",
+			"https://www.google.com"
+		],
+		"rules": [ {
+				"cssSelectorPath": "div.container-fluid a.myFakeClass1",
+				"complexity": "singleFromMultiple",
+				"xPath": [ "./*[@my-attribute='orange']/child::node()", "./*[@id='ioannidis']/child::node()" ],
+				"xPathConcat": " ",
+				"valueRegex": [ "\\w+", "^\\w+" ],
+				"markupProperty": "author",
+				"markupType": "publications",
+				"badgeLocation": "span",
+				"tagNumber": 0,
+				"badgePosition": "afterend",
+				"addBadge": true,
+				"addBadgeToEnd": false
+			},
+			{
+				"cssSelectorPath": "div.container-fluid div.row-fluid div.col-md-12 div.corps div div[class='panel panel-default collapsable'] div[class='panel-body in'] div i",
+				"complexity": "multiple",
+				"xPath": [ "./child::node()" ],
+				"xPathConcat": "",
+				"valueRegex": [ "\\s+[\\w\\-]+(\\s+[\\w\\-]+)+\\s*" ],
+				"markupProperty": "author",
+				"markupType": "publications",
+				"badgeLocation": "",
+				"tagNumber": -1,
+				"badgePosition": "afterend",
+				"addBadge": true,
+				"addBadgeToEnd": false
+			},
+			{
+				"cssSelectorPath": "div.container-fluid div.row-fluid div.col-md-12 div.corps div div.article-block div.authors a",
+				"complexity": "single",
+				"xPath": [ "./child::node()" ],
+				"xPathConcat": "",
+				"valueRegex": [ "" ],
+				"markupProperty": "author",
+				"markupType": "publications",
+				"badgeLocation": "",
+				"tagNumber": -1,
+				"badgePosition": "afterend",
+				"addBadge": true,
+				"addBadgeToEnd": false
+			}
+		]
+	},
+	{
+		"url": [
+			"file:///C:/Users/eioannidis/source/repos/Open%20Science%20Lens%20Testing%20Site/%239203%20-%20A%20non-local%20model%20for%20the%20description%20of%20twinning%20in%20polycrystalline%20materials%20in%20the%20context%20of%20infinitesimal%20strains_%20application%20to%20a%20magnesium%20alloy.html"
+		],
+		"rules": [ {
+			"cssSelectorPath": "div.container-fluid div.row-fluid div.col-md-12 div.corps div div[class='panel panel-default collapsable'] div[class='panel-body in'] div i",
+			"complexity": "multiple",
+			"xPath": [ "./child::node()" ],
+			"xPathConcat": "",
+			"valueRegex": [ "\\s+[\\w\\-]+(\\s+[\\w\\-]+)+\\s*" ],
+			"markupProperty": "author",
+			"markupType": "publications",
+			"badgeLocation": "",
+			"tagNumber": -1,
+			"badgePosition": "afterend",
+			"addBadge": true,
+			"addBadgeToEnd": false
+		} ]
+	},
+	{
+		"url": [
+			"file:///C:/Users/eioannidis/source/repos/Open%20Science%20Lens%20Testing%20Site/Journal%20of%20Theoretical,%20Computational%20and%20Applied%20Mechanics%20-%20Browse%20latest%20articles.html"
+		],
+		"rules": [ {
+			"cssSelectorPath": "div.container-fluid div.row-fluid div.col-md-12 div.corps div div.article-block div.authors a",
+			"complexity": "single",
+			"xPath": [ "./child::node()" ],
+			"xPathConcat": "",
+			"valueRegex": [ "" ],
+			"markupProperty": "author",
+			"markupType": "publications",
+			"badgeLocation": "",
+			"tagNumber": -1,
+			"badgePosition": "afterend",
+			"addBadge": true,
+			"addBadgeToEnd": false
+		} ]
+	},
+	{
+		"url": [
+			"file:///C:/Users/eioannidis/source/repos/Open%20Science%20Lens%20Testing%20Site/Publications%20_%20MaDgIK.html",
+			"https://www.madgik.di.uoa.gr/publications"
+		],
+		"rules": [ {
+				"cssSelectorPath": "div.dialog-off-canvas-main-canvas div[class='inv-body-inner default'] div.inv-section div.section-inner div.container div.row-fluid div[class='inv-region region-content col-xs-12 col-sm-12 col-md-9 col-lg-9 region'] div.block div div.views-element-container div[class='blog-list view view-publications view-id-publications view-display-id-page_1 js-view-dom-id-6c23027c8c2c0ea3222f54baab00253f20b1eab33ebf0a69fc77284bbfa0ced0'] div.view-content div[class='container-fluid views-row'] div.views-field.views-field-field-citation span.field-content",
+				"complexity": "multiple",
+				"xPath": [ "./child::node()[7]" ],
+				"xPathConcat": "",
+				"valueRegex": [ "\\s*[\\w\\-]+(\\s+[\\w\\-]+)+" ],
+				"markupProperty": "author",
+				"markupType": "publications",
+				"badgeLocation": "",
+				"tagNumber": -1,
+				"badgePosition": "afterend",
+				"addBadge": true,
+				"addBadgeToEnd": false
+			},
+			{
+				"cssSelectorPath": "div.dialog-off-canvas-main-canvas div[class='inv-body-inner default'] div.inv-section div.section-inner div.container div.row-fluid div[class='inv-region region-content col-xs-12 col-sm-12 col-md-9 col-lg-9 region'] div.block div div.views-element-container div[class='blog-list view view-publications view-id-publications view-display-id-page_1 js-view-dom-id-6c23027c8c2c0ea3222f54baab00253f20b1eab33ebf0a69fc77284bbfa0ced0'] div.view-content div[class='container-fluid views-row'] div.views-field.views-field-field-citation span.field-content",
+				"complexity": "multiple",
+				"xPath": [ "textContent" ],
+				"xPathConcat": "",
+				"valueRegex": [ "\\s*[\\w\\-]+[,]\\s[\\w][.]" ],
+				"markupProperty": "author",
+				"markupType": "publications",
+				"badgeLocation": "",
+				"tagNumber": -1,
+				"badgePosition": "afterend",
+				"addBadge": true,
+				"addBadgeToEnd": false
+			}
+		]
+	},
+	{
+		"url": [
+			"file:///C:/Users/eioannidis/source/repos/JS%20Library%20%231/index.html"
+		],
+		"rules": [ {
+				"cssSelectorPath": "div.container-fluid div.row-fluid div.col-md-12 div.corps div div.article-block div.authors a",
+				"complexity": "single",
+				"xPath": [ "./child::node()" ],
+				"xPathConcat": "",
+				"valueRegex": [ "" ],
+				"markupProperty": "author",
+				"markupType": "publications",
+				"badgeLocation": "",
+				"tagNumber": -1,
+				"badgePosition": "afterend",
+				"addBadge": true,
+				"addBadgeToEnd": false
+			},
+			{
+				"cssSelectorPath": "div.container-fluid div.row-fluid div.col-md-12 div.corps div div.article-block div.authors div",
+				"complexity": "singleFromMultiple",
+				"xPath": [ "./*[@id='fabien']/child::node()", "./child::node()[3]" ],
+				"xPathConcat": " ",
+				"valueRegex": [ "\\w+", "\\w+" ],
+				"markupProperty": "author",
+				"markupType": "publications",
+				"badgeLocation": "",
+				"tagNumber": -1,
+				"badgePosition": "afterend",
+				"addBadge": true,
+				"addBadgeToEnd": false
+			},
+			{
+				"cssSelectorPath": "div.container-fluid div.row-fluid div.col-md-12 div.corps div.panel.panel-default.collapsable div.panel-body.in div i",
+				"complexity": "multiple",
+				"xPath": [ "textContent" ],
+				"xPathConcat": "",
+				"valueRegex": [ "\\s[\\w\\-]+(\\s[\\w\\-]+)+\\s*" ],
+				"markupProperty": "author",
+				"markupType": "publications",
+				"badgeLocation": "",
+				"tagNumber": -1,
+				"badgePosition": "afterend",
+				"addBadge": true,
+				"addBadgeToEnd": false
+			}
+		]
+	}
+]
