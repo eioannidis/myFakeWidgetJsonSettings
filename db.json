@@ -1,4 +1,5 @@
-[ {
+{
+	"configurationJson": [ {
 		"url": [
 			"https://www.madgik.di.uoa.gr/publications",
 			"file:///C:/Users/eioannidis/source/repos/Open%20Science%20Lens%20Testing%20Site/index.html",
@@ -170,4 +171,4 @@
 		]
 	}
 ]
-
+}
